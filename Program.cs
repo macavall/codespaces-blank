@@ -1,7 +1,16 @@
 using Microsoft.Extensions.Hosting;
 
-var host = new HostBuilder()
-    .ConfigureFunctionsWorkerDefaults()
-    .Build();
+namespace testFunc
+{
+    public class Program
+    {
+        public static void main()
+        {
+            var host = new HostBuilder()
+                .ConfigureFunctionsWorkerDefaults()
+                .Build();
 
-host.Run();
+            host.Run();
+        }
+    }
+}
