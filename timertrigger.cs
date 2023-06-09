@@ -10,7 +10,7 @@ namespace Company.Function
 
         public timertrigger(ILoggerFactory loggerFactory)
         {
-            _logger = loggerFactory.CreateLogger<timertrigger>(); // test
+            _logger = loggerFactory.CreateLogger<timertrigger>(); // test 
         }
 
         [Function("timertrigger")]
